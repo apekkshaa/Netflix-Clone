@@ -32,3 +32,57 @@
             <span class="arrow" id="hide"><i class="fa-solid fa-caret-down"></i></span>
         </div>
     </header>
+        
+    <!----------------banner-------------->
+    <div id="banner">
+        <div id="banner-content">
+            <h1 id="banner-title"></h1>
+            <div id="banner-buttons">
+                <button class="btn1" id="banner-button"><i class="fa-solid fa-play"></i>Play</button>
+                <button class="btn2" id="banner-button"><i class="fa-solid fa-circle-info"></i>More Info</button>
+            </div>
+            <p id="banner-description"></p>
+        </div>
+        <div id="banner-fadebuttom"></div>
+    </div>
+
+    <!------------Row content------------->
+    <div id="headrow">
+        <div class="row">
+            <h2 class="row-title"></h2>
+            <div class="row-posters"></div>
+        </div>
+    </div>
+    <!-------------footer icon------------>
+    <footer class="footer">
+        <div class="bottom-icon active">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+        </div> 
+        <div class="bottom-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <p>Search</p>
+        </div>
+        <div class="bottom-icon">
+            <i class="fa-solid fa-arrow-down"></i>
+            <p>Download</p>
+        </div>
+        <div class="bottom-icon">
+            <i class="fa-solid fa-bars"></i>
+            <p>More</p>
+        </div>
+    </footer>
+
+    <!--------------script---------------->
+    <script>
+        window.addEventListener("scroll", function(){
+
+            var head = document.querySelector(".header");
+            head.classList.toggle("active", window.scrollY > 600);
+        });
+    </script>
+    
+    <script src="script/Main.js"></script>
+
+</body>
+</html>
