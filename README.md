@@ -7,3 +7,6 @@ FEATURES
 
 1. Responsive design
 2. Mimics netflix's movie and TV show recommendations 
+
+LIVE WEBSITE
+https://apekkshaa.github.io/Netflix-Clone/
