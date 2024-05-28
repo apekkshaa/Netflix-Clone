@@ -1,10 +1,14 @@
-# Netflix-Clone
+# **Netflix-Clone**
 
-This repository contains the code for building a Netflix inspired home.
-This project aims to recreate the visual design and layout of the Netflix home page, providing a starting point for creating similat interfaces or learning web development
+This project is a Netflix-inspired web application showcasing trending movies, TV shows, and various genres using the TMDB API. It features a dynamic and responsive interface that updates content on each visit. 
 
-FEATURES
+## **FEATURES**
+- Fetches and displays trending movies
+- Interactive UI
+- Responsive Design
+- API Integration
 
-1. Responsive design
-2. Mimics netflix's movie and TV show recommendations 
+
+## **API INTEGRATION**
+The project integrates with The Movie Database (TMDb) API to fetch movie and TV show data, including titles, descriptions, and images.
 
